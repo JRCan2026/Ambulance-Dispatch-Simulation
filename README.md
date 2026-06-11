@@ -11,7 +11,7 @@ In this project two ambulance dispatch strategies are compared to determine whic
 * Emergency calls are generating using a Poisson process with $\lambda=30\ calls/hour$.
 * The simulation runs for 60 minutes with a 1-minute time step.
 
-Instead of relying on summary statistics such as means or percentiles, survival analysis is used on response and waiting time distributions tp compare policy performance. This enables identification of efficiency regimes, capturing not only which patching strategy performs better on average, but also where and in what proportion differences arise across the distribution.
+Instead of relying on summary statistics such as means or percentiles, survival analysis is used on response and waiting time distributions to compare policy performance. This enables identification of efficiency regimes, capturing not only which patching strategy performs better on average, but also where and in what proportion differences arise across the distribution.
 
 Finally, a sensitivity analysis is conducted by varying the fleet size to assess system response under different levels of operational stress.
 
