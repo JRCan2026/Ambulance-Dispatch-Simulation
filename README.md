@@ -1,6 +1,7 @@
 # Ambulance-Dispatch-Simulation
 <img width="1536" height="1024" alt="ambulance_IA" src="https://github.com/user-attachments/assets/b69f2bdc-50ef-44c8-9d06-79547f37ef2b" />
 In this project two ambulance dispatch strategies are compared to determine which of them performs best in reducing response and waiting times when serving incoming emergency calls. The policies considered are:
+
 1) Greedy Policy (GP): assigns the closest available ambulance to each incoming emergency call, minimizing immediate travel time.
 2) Optimized assignation policy (OP): assigns ambulances by solving a global allocation problem at each timestep, aiming to minimize total travel time across assignments in the system.
 
